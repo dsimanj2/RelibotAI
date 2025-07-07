@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ReliBotAI.ai – Predictive Reliability Analytics and Maintenance Planning for Your Industries</title>
+  <title>ReliBot.ai – Predictive Reliability Analytics and Maintenance Planning for Your Industries</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
   <style>
     body {
@@ -18,8 +18,16 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       padding: 40px;
+    }
+    .logo-title {
+      display: flex;
+      align-items: center;
+    }
+    .logo-title img {
+      height: 50px;
+      margin-right: 15px;
     }
     header h1 {
       margin: 0;
@@ -39,6 +47,13 @@
     }
     nav {
       margin-top: 20px;
+      position: sticky;
+      top: 0;
+      background-color: #0f172a;
+      padding: 10px 0;
+      width: 100%;
+      z-index: 1000;
+      text-align: center;
     }
     nav a {
       color: white;
@@ -48,15 +63,15 @@
     }
     .hero {
       text-align: center;
-      padding: 80px 40px;
+      padding: 80px 20px;
       background-color: white;
     }
     .hero h2 {
-      font-size: 2.5rem;
+      font-size: 2.2rem;
       margin-bottom: 20px;
     }
     .hero p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       max-width: 720px;
       margin: 0 auto 30px;
     }
@@ -74,7 +89,7 @@
       flex-wrap: wrap;
       justify-content: center;
       gap: 30px;
-      padding: 60px 40px;
+      padding: 60px 20px;
       background-color: #f9fafb;
     }
     .features::before {
@@ -99,7 +114,7 @@
       margin-bottom: 10px;
     }
     .demo-section, .contact-section {
-      padding: 60px 40px;
+      padding: 60px 20px;
       text-align: center;
       background-color: white;
     }
@@ -119,11 +134,28 @@
       padding: 20px;
       font-size: 0.9rem;
     }
+    @media (max-width: 768px) {
+      header {
+        padding: 20px;
+      }
+      header h1 {
+        font-size: 2.5rem;
+      }
+      header h2 {
+        font-size: 1.5rem;
+      }
+      header h3 {
+        font-size: 1.2rem;
+      }
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>ReliBot.ai</h1>
+    <div class="logo-title">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/bot.png" alt="ReliBot Logo">
+      <h1>ReliBot.ai</h1>
+    </div>
     <h2>Predictive Reliability Analytics and Maintenance Planning for Your Industries</h2>
     <h3>Use Data and AI to slash downtime and costs</h3>
     <nav>
@@ -134,7 +166,7 @@
   </header>
 
   <section class="hero">
-    <h2>Predictive Reliability Analytics and Maintenance Planning for Your Industries</h2>
+    <h2>Predictive Reliability Analytics for Industrial Engineers</h2>
     <p>Reliability Dashboard, Maintenance Planning, FMEA, RCM, Weibull, Crow-AMSAA — all in one intuitive dashboard. Turn your data into decisions.</p>
     <a href="#demo"><button class="btn-primary">Access Demo</button></a>
   </section>
@@ -182,7 +214,7 @@
   </section>
 
   <footer>
-    <p>&copy; 2025 ReliBotAI.ai | Designed for Engineers, Powered by Data</p>
+    <p>&copy; 2025 ReliBot.ai | Designed for Engineers, Powered by Data</p>
   </footer>
 </body>
 </html>
