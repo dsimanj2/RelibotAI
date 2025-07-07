@@ -16,17 +16,33 @@
       background-color: #0f172a;
       color: white;
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
+      justify-content: center;
       align-items: center;
-      padding: 20px 40px;
+      padding: 40px;
     }
     header h1 {
       margin: 0;
-      font-size: 1.8rem;
+      font-size: 4rem;
+    }
+    header h2 {
+      margin-top: 10px;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #d1d5db;
+    }
+    header h3 {
+      margin-top: 5px;
+      font-size: 1.2rem;
+      font-weight: 300;
+      color: #9ca3af;
+    }
+    nav {
+      margin-top: 20px;
     }
     nav a {
       color: white;
-      margin-left: 20px;
+      margin: 0 10px;
       text-decoration: none;
       font-weight: 500;
     }
@@ -60,6 +76,15 @@
       gap: 30px;
       padding: 60px 40px;
       background-color: #f9fafb;
+    }
+    .features::before {
+      content: "Reliability Dashboard";
+      font-size: 2rem;
+      font-weight: 600;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #1f2937;
     }
     .feature {
       background-color: white;
@@ -99,6 +124,8 @@
 <body>
   <header>
     <h1>ReliBot.ai</h1>
+    <h2>Predictive Reliability Analytics and Maintenance Planning for Your Industries</h2>
+    <h3>Use Data and AI to slash downtime and costs</h3>
     <nav>
       <a href="#features">Features</a>
       <a href="#demo">Demo</a>
@@ -107,27 +134,31 @@
   </header>
 
   <section class="hero">
-    <h2>Predictive Reliability Analytics and Maintenance Planning for Your Industries</h2>
-    <p>Weibull, Crow-AMSAA, FMEA, RCM, Maintenance Planning, FMEA, RCM, Reliability Dashboard, Weibull, Crow-AMSAA, and leveraging data & AI to slash downtime & costs— all in one intuitive dashboard.  Turn your data into decisions.</p>
+    <h2>Predictive Reliability Analytics for Industrial Engineers</h2>
+    <p>Reliability Dashboard, Maintenance Planning, FMEA, RCM, Weibull, Crow-AMSAA — all in one intuitive dashboard. Turn your data into decisions.</p>
     <a href="#demo"><button class="btn-primary">Access Demo</button></a>
   </section>
 
   <section class="features" id="features">
+     <div class="feature">
+      <h3>Reliability Dashboard</h3>
+      <p>A unified platform for engineers to visualize failure patterns, monitor, analyze, and optimize equipment reliability.</p>
+    </div>
+    <div class="feature">
+      <h3>Maintenance Planning</h3>
+      <p>Plan, schedule, and track maintenance activities across assets with full visibility and historical traceability.</p>
+    </div>
     <div class="feature">
       <h3>Weibull Analysis</h3>
-      <p>Fit failure time distributions and extract MTTF, β, η instantly.</p>
+      <p>Fit failure time distributions and extract MTTF (Mean Time to Failure), β, η instantly.</p>
     </div>
     <div class="feature">
       <h3>Crow-AMSAA</h3>
       <p>Analyze system-level reliability trends and growth over time.</p>
     </div>
     <div class="feature">
-      <h3>FMEA + RCM</h3>
-      <p>Structured forms for risk prioritization and maintenance task planning.</p>
-    </div>
-    <div class="feature">
-      <h3>Maintenance Scheduler</h3>
-      <p>Create, assign, and monitor PM/CM tasks with equipment tracking.</p>
+      <h3>FMEA + RCM Builder</h3>
+      <p>Structured forms and workflows to identify failure modes, assess risk, and risk prioritization.</p>
     </div>
   </section>
 
