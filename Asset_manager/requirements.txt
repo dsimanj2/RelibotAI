@@ -1,0 +1,6 @@
+streamlit>=1.28.0
+pandas>=1.5.0
+altair>=4.2.0
+supabase>=1.0.3
+python-dotenv
+openpyxl>=3.1.0
