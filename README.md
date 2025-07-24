@@ -3,7 +3,7 @@ AI-powered reliability analytics dashboard for engineers. Weibull, Crow-AMSAA, F
 
 # ReliBot.ai – Reliability Analytics for Engineers
 
-🚀 **ReliBot.ai** is an AI-powered reliability and maintenance analytics dashboard built for industrial engineers. Analyze failures, prioritize risks, and schedule maintenance — all in one place.
+**ReliBot.ai** is an AI-powered reliability and maintenance analytics dashboard built for industrial engineers. Analyze failures, prioritize risks, and schedule maintenance — all in one place.
 
 ## 🔍 Key Features
 
@@ -13,14 +13,14 @@ AI-powered reliability analytics dashboard for engineers. Weibull, Crow-AMSAA, F
 - **FMEA & RCM Forms** – Risk prioritization and maintenance task planning
 - **Maintenance Scheduler** – SAP-style equipment and work order tracking
 
-## 🌐 Live Demo
+## Live Demo
 
 Try the live version:  
-👉 [https://your-username.github.io/relibot-landing](https://your-username.github.io/relibot-landing)
+ [https://your-username.github.io/relibot-landing](https://your-username.github.io/relibot-landing)
 
 > Use the **Demo Login** form to simulate access and explore the product concept.
 
-## 🛠 Built With
+## Built With
 
 - **HTML/CSS** (no framework)
 - Google Fonts + responsive layout
@@ -30,7 +30,7 @@ Try the live version:
   - GitHub Pages
   - Hugging Face Spaces
 
-## 📦 Deployment
+## Deployment
 
 This project is deployed via **GitHub Pages**.
 
